@@ -274,16 +274,16 @@ local Tab = Window:MakeTab({
 	PremiumOnly = fals
 })
 
-Tab:AddLabel("Gang")
+Tab:AddLabel("Gang Shit")
 
 Tab:AddButton({
-	Name = "Goto LK - JAY",
+	Name = "Goto BP",
 	Callback = function()
-		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(10, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-463.649414, 16.5461922, 313.786804, 0.525470376, 3.53329561e-08, -0.850811899, -5.52275985e-08, 1, 7.41937134e-09, 0.850811899, 4.30896385e-08, 0.525470376)}):Play()
+		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(10, Enum.EasingStyle.Linear), {CFrame = CFrame.new(49.8861046, 16.0010567, -67.9187851, 0.63476938, -7.01092659e-08, -0.772701621, 1.74240569e-08, 1, -7.64188997e-08, 0.772701621, 3.50447813e-08, 0.63476938)}):Play()
   	end    
 })
 Tab:AddButton({
-	Name = "Goto CHK - JASON",
+	Name = "Goto CHK",
 	Callback = function()
       	game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(10, Enum.EasingStyle.Linear), {CFrame = CFrame.new(533.597839, 3.83536768, 578.769714, 0.130931795, -5.47693482e-08, 0.991391361, -3.30959686e-08, 1, 5.96158714e-08, -0.991391361, -4.06166727e-08, 0.130931795)}):Play()
   	end    
@@ -307,6 +307,13 @@ Tab:AddButton({
 	Name = "Goto Safe",
 	Callback = function()
 	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(10, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-330.854889, 3.83536816, -387.163605, 0.988208532, 4.36671783e-08, 0.15311411, -2.96035534e-08, 1, -9.41304137e-08, -0.15311411, 8.84877522e-08, 0.988208532)}):Play()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Goto Rooftop",
+	Callback = function()
+	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-360.519775, 25.137825, -95.8567352, 0.0620015264, -3.98629858e-08, -0.998076081, 1.7266288e-08, 1, -3.88672312e-08, 0.998076081, -1.48232404e-08, 0.0620015264)}):Play()
 	end    
 })
 
@@ -2098,7 +2105,7 @@ if syn then
 			local plr = game.Players.LocalPlayer
 	        tpservice:Teleport(game.PlaceId, plr)
 	        	syn.queue_on_teleport([[
-	        	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lobox920/Shar-Script/main/Chicago%20Remastered.lua')))()
+	        	loadstring(game:HttpGet(('https://raw.githubusercontent.com/jdclol/aaa/main/chi.lua')))()
 	        	]])
 	    end
 	end)
