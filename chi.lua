@@ -279,7 +279,7 @@ Tab:AddLabel("Gang Shit")
 Tab:AddButton({
 	Name = "Goto BP",
 	Callback = function()
-		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(10, Enum.EasingStyle.Linear), {CFrame = CFrame.new(49.8861046, 16.0010567, -67.9187851, 0.63476938, -7.01092659e-08, -0.772701621, 1.74240569e-08, 1, -7.64188997e-08, 0.772701621, 3.50447813e-08, 0.63476938)}):Play()
+		game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear), {CFrame = CFrame.new(49.8861046, 16.0010567, -67.9187851, 0.63476938, -7.01092659e-08, -0.772701621, 1.74240569e-08, 1, -7.64188997e-08, 0.772701621, 3.50447813e-08, 0.63476938)}):Play()
   	end    
 })
 Tab:AddButton({
@@ -314,6 +314,13 @@ Tab:AddButton({
 	Name = "Goto Rooftop",
 	Callback = function()
 	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-360.519775, 25.137825, -95.8567352, 0.0620015264, -3.98629858e-08, -0.998076081, 1.7266288e-08, 1, -3.88672312e-08, 0.998076081, -1.48232404e-08, 0.0620015264)}):Play()
+	end    
+})
+
+Tab:AddButton({
+	Name = "Goto Rooftop 2",
+	Callback = function()
+	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear), {CFrame = CFrame.new(27.3137703, 30.1471138, -66.9100952, 0.313946784, 2.52987284e-08, 0.949440598, -2.51219276e-08, 1, -1.83389872e-08, -0.949440598, -1.80943118e-08, 0.313946784)}):Play()
 	end    
 })
 
@@ -436,7 +443,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Goto 7/11 Shp NPC",
 	Callback = function()
-	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(11, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-61, 3, -194)}):Play()
+	    game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear), {CFrame = CFrame.new(-61, 3, -194)}):Play()
 	end    
 })
 
